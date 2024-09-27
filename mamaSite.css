@@ -1,0 +1,70 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.mainBG {
+    width: 430px;
+    height: 100vh;
+    background-color: red;
+    overflow: hidden;
+}
+
+.firstPageBG {
+    background-image: url(mamaFirstPage.jpg);
+    background-repeat: no-repeat;
+    width: 730px;
+    height: 1700px;
+    position: relative;
+    top: -300px;
+    left: -100px;
+    position: relative;
+}
+
+.mainTXT {
+    background-color: red;
+    
+    position: absolute;
+    /* left: 50%;
+    top: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+body{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.forBackground {
+    background-color: rgb(196, 153, 93);
+    background-image: url(mamaFirstPage.jpg);
+    min-width: 1000px;
+    min-height: 1000px;
+    position: relative;
+    top: -200px;
+    left:30px;
+}
+
+.bigFrame {
+    overflow: hidden;
+    /* background-color: blanchedalmond; */
+    width: 430px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
